@@ -93,11 +93,29 @@ section {
 
 .hero {
     background-image: url(../images/pexels-markus-spiske-1089438.jpg);
-    height: 200px;
+    height: 400px;
     background-size: cover;
     background-position: center;
-    color: #fff
+    color: #fff;
 }
 
+.hero h1 {
+    font-size:36px;
+}
+
+.keanu {
+    float: right;
+}
+
+#about-me{
+    color: #fff;
+    float: center;
+    border: 3px solid #fff;
+    padding: 20px;
+    position: relative;
+    right: 20px;
+    top: 20px;
+    width: 70%
+}
 
 
