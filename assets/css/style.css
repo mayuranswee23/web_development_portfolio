@@ -37,7 +37,7 @@ header nav ul li a{
     font-weight: lighter;
     font-size: 22px;
 }
-/*
+
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -51,7 +51,7 @@ header nav ul li a{
     font-weight: lighter;
     font-size: 1.55vw;
 }
-*/
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -95,18 +95,20 @@ section {
 
 .hero {
     background-image: url(../images/pexels-markus-spiske-1089438.jpg);
-    height: 400px;
     background-size: cover;
     background-position: center;
-    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 .hero h1 {
     font-size:36px;
-}
-
-.keanu {
-    float: right;
+    color: #fff;
+    align-items: flex-end;
 }
 
 .about-me h2{
@@ -127,19 +129,20 @@ section {
     padding: 30px
 }
 
-.achievements h2{
-    flex: 1 25%;
-}
-
-.achievements {
-    flex: 3 75%;
-}
-
-
 
 .bootcamp {
     display:flex;
     flex-wrap: wrap; 
     justify-content: space-between;
     align-items: center;
+}
+
+
+.keanu {
+    display: flex;
+    align-items: flex-end;
+}
+
+.work h2{
+    flex: 3 75%
 }
