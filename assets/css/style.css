@@ -75,6 +75,7 @@ footer div {
 
 footer div ul li{
     display: inline;
+    flex-wrap: wrap;
 }
 
 footer div ul li a{
@@ -83,6 +84,7 @@ footer div ul li a{
     margin: 0 30px;
     font-size: 22px;
     font-weight: lighter;
+  
 }
 
 
@@ -148,4 +150,60 @@ section {
 
 .work h2{
     flex: 3 75%
+}
+
+@media screen and (max-width:980px){
+    header{
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative
+    }
+
+    header h1{
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a{
+        font-size: 20px;
+    }
+
+    footer h2, footer div{
+        text-align: center;
+        width: 100%;
+    }
+
+    section {
+        width:80%
+    }
+
+    .hero{
+        width:100%
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        padding: 20px 20px;
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    
+    header nav ul {
+        margin-top: 0;
+    }
+
+    .hero{
+        height: 100%;
+    }
+
 }
