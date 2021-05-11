@@ -103,7 +103,7 @@ section {
     background-position: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
@@ -137,7 +137,7 @@ section {
 
 .bootcamp {
     display:flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;  
     justify-content: space-between;
     align-items: center;
 }
@@ -152,6 +152,32 @@ section {
 
 .work h2{
     flex: 3 75%
+}
+
+.project-img-container {
+   background: rbga(39, 62, 84, 1); 
+}
+
+.project-img {
+    opacity: 1;
+    transition: all ease-in-out 0.5s;
+}
+
+.project-img:hover{
+    opacity: 0.5;
+}
+
+.code-img{
+    transition: all ease-in-out 0.5s;
+}
+
+.code-img:hover{
+    transform: scale(1.2);
+    /* transform: skewX(4deg); */
+}
+
+.css {
+    width: 250px;
 }
 
 @media screen and (max-width:980px){
